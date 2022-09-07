@@ -66,7 +66,3 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Hat tip to the react and jest team
-
-## 📝 License
-
-This project is [MIT](./LICENSE) licensed.
