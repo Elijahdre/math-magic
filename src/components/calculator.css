@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.input-number {
+  width: 30%;
+  font-size: 2rem;
+  text-align: end;
+  padding: 0.2rem;
+  border: 1px solid #000;
+}
+
+.calc-box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  align-items: center;
+  justify-content: center;
+  width: 30.5%;
+  height: 30%;
+}
+
+.calc-button {
+  height: 50px;
+  font-size: 1rem;
+  border: 1px solid #000;
+}
+
+.calc-button:nth-child(17) {
+  grid-column: 1 /  3;
+}
+
+.pad {
+  background-color: #f4913e;
+}
