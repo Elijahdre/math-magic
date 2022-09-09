@@ -44,21 +44,4 @@ const Calculator = () => {
   );
 }
 
-// class Calculator extends React.Component {
-//   constructor(props) {
-//     super(props);
-//      state = {
-//       total: null,
-//       next: null,
-//       operation: null,
-//     };
-//   }
-
-
-
-//   render() {
-    
-//   }
-// }
-
 export default Calculator;
