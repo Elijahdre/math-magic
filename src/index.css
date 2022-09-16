@@ -7,3 +7,68 @@
 body {
   font-family: 'Courier New', Courier, monospace;
 }
+
+.quote {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1em;
+}
+
+.quote p {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0;
+}
+
+.home {
+  margin: 8rem;
+  font-weight: 700;
+}
+
+.home p {
+  margin: 2rem;
+  margin-top: 1rem;
+  max-width: 768px;
+  line-height: 1.6;
+}
+
+.nav-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(22, 21, 21);
+}
+
+.nav-heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.945);
+}
+
+.links a {
+  margin: 20px;
+  color: rgba(255, 255, 255, 0.945);
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .quote p {
+    font-size: 2rem;
+  }
+
+  .home {
+    font-size: 3rem;
+  }
+
+  .nav-bar {
+    padding: 1.5em 4em;
+  }
+}

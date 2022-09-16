@@ -2,56 +2,95 @@
 
 # Math Magicians
 
-> Math magician is an app created with REACT | JEST here, lovers of mathematics can perform easy operations on numbers and also get access to inspiring mathematics quotes.
+> "Math Magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
+> - Make a simple calculations.
+> - Read a random math-related quote.
+
 
 ## Built With
 
-- Javascript
-- Css
-- React
-- Jest
-- Webpack
+- [x] Languages: HTML, CSS and JavaScript
+- [x] Linters: Stylelint and ESLint
+- [x] Front-end library: React
+- [x] Code Editor: VS Code
 
-## Live Demo
+## Website Mockup 📱 💻 🖥️
+![app_screenshot]()
 
-[Live Demo Link](COMING SOON ...)
+## Screenshots 📸
+Screenshots can be found in the repository.
+
+## Live Demo 🔗
+
+Check the live demo [heroku]()👈
+
+Check the live demo [netlify]()👈
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these simple steps.
 
-- Open up your command line
-- Clone this repo to your machine by using Git clone: Git clone `git@github.com:Elijahdre/math-magic.git`
+### Prerequisites
 
-# Prerequisite
+- [x] A web browser like Google Chrome.
+- [x] A code editor like Visual Studio Code with Git and Node.js.
 
-- Code editor preferably VsCode
-- Browser
+You can check if Git is installed by running the following command in the terminal.
+```
+$ git --version
+```
+
+Likewise for Node.js and npm for package installation.
+```
+$ node --version && npm --version
+```
+
+### Setup
+
+Clone the repository using the GitHub link provided below.
 
 ### Install
 
-- `npm install -g @lhci/cli@0.7.x`
-- `npm install --save-dev hint@6.x`
-- `npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x`
+In the terminal, go to your file directory and run this command.
+
+```
+$ git clone git@github.com:Elijahdre/math-magic.git
+```
+
+### Usage
+
+Kindly modify the files as needed.
+
+In the project directory, you can run:
+```
+$ npm start
+```
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
 ### Run tests
 
-To run tests on this project if you tweaked something, run the following command
+To check for linters, use the files provided by [Microverse](https://github.com/microverseinc/linters-config). A GitHub action is also set to run during pull request.
+```
+$ npm install
+```
 
-- `npx hint .`
-- `npx stylelint "\*_/_.{css,scss}"`
-- `npx eslint .`
-- Install jest using `npm i --save-dev jest`
-- Install jsDom using `npm install --save-dev jest-environment-jsdom-global jest-environment-jsdom`
-- run your test using `npm run test`
+### Deployment
 
-## Authors
+This app is deployed in the GitHub Pages for easy viewing upon merged on the main branch.
+Please find the link in the Live Demo section.
 
-👤 **Obiebi Okiemute David**
 
-- GitHub: [@githubhandle](https://github.com/Elijahdre)
-- Twitter: [@twitterhandle](https://twitter.com/kingglijah)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/elijah-odjegba-862708179/)
+## Author
+
+👤 **Elijah Odjegba** <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="20"/>
+
+  - GitHub: [![GitHub Badge](https://img.shields.io/badge/-Elijahdre-white?logo=GitHub&logoColor=181717&style=plastic)](https://github.com/Elijahdre)
+  - Twitter: [![Twitter Badge](https://img.shields.io/badge/-kingglijah-white?logo=Twitter&logoColor=1DA1F2&style=plastic)](https://twitter.com/kingglijah)
+  - LinkedIn: [![LinkedIn Badge](https://img.shields.io/badge/-Elijah--Odjegba-white?logo=LinkedIn&logoColor=0A66C2&style=plastic)](https://www.linkedin.com/in/elijah-odjegba-862708179/)
 
 ## 🤝 Contributing
 
@@ -65,4 +104,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to the react and jest team
+- [Microverse](https://www.microverse.org/)
+- Code Reviewers
+- Coding Partner
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.

@@ -17,6 +17,10 @@ const Calculator = () => {
 
   }   
   return (
+    <>
+    <h1>Maths Magicians</h1>
+    <h3>Let's do some maths!</h3>
+
     <div className="container">
       <div className="input-number">{( state.next === null) ?  state.total :  state.next}</div> 
       <div className="calc-box">
@@ -41,6 +45,7 @@ const Calculator = () => {
         <button type="button" className="calc-button pad" value="=" onClick={(e)=>  handleClick(e.target.value)}>=</button>
       </div>
     </div>
+    </>
   );
 }
 
