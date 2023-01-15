@@ -15,10 +15,8 @@
 - [x] Code Editor: VS Code
 
 ## Website Mockup 📱 💻 🖥️
-![app_screenshot]()
+![math-magic](https://user-images.githubusercontent.com/47558964/212529494-7bcbe9f8-a65f-4823-b1d8-1ecdfb462f01.PNG)
 
-## Screenshots 📸
-Screenshots can be found in the repository.
 
 ## Live Demo 🔗
 
